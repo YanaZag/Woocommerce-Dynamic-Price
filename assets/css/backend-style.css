@@ -1,0 +1,89 @@
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-top: 9px solid;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+}
+.btn {
+	margin-left: 10px;
+	margin-top: 30px;
+	width: 97%;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    cursor: pointer;
+    outline:none;
+    color: #0073aa;
+}
+.btn:hover{
+    color: #00a0d2;
+}
+#set_price{
+	margin-bottom: 10px;
+	margin-left: 12px;
+	display: none;
+	width: 78.5%;
+	padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 48px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+
+}
+#save_choose{
+	margin-left: 10px;
+}
+#save_new_price_city{
+    margin-left: 5px;
+}
+.save_price{
+    margin-right: 3px!important;
+}
+#valid_field_autocomplete{
+    position: absolute;
+    right: 6px;
+    top: 19px;
+}
+#valid_field_price{
+    position: absolute;
+    right: 60px;
+    top: 78px;
+}
+#valid_field_sale_price{
+    position: absolute;
+    right: 7px;
+    top: 134px;
+}
+.button_save{
+    position: absolute;
+    right: 35px;
+}
+#pagination_option, .pag{
+    cursor: pointer;
+    text-decoration: none;
+    background: silver;
+    border: 1px solid #3b3b4c;
+    padding: 5px;
+
+}
+.pag{
+    font-weight: bold;
+}
+.pagination{
+    display: flex!important;
+    display: -webkit-flex!important;
+    justify-content: center!important;
+    -webkit-justify-content: center!important;
+}
+.update_city_price, .delete_price_city{
+    width: 85px; 
+}
+#show_option_add_price{
+    margin-bottom: 15px;
+}
